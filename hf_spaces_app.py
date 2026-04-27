@@ -48,9 +48,6 @@ def start_ui():
 
 
 if __name__ == "__main__":
-    # Start API in background thread
     api_thread = threading.Thread(target=start_api, daemon=True)
     api_thread.start()
-
-    # Start UI in main thread (blocks)
     start_ui()
