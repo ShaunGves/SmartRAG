@@ -1,0 +1,42 @@
+[
+  {
+    "system": "Base Model + Dense RAG",
+    "question": "What is the difference between a list and a generator in Python?",
+    "failure_type": "hallucination",
+    "answer_snippet": "Lists store elements. Generators use yield. They are different data structures in Python....",
+    "keyword_coverage": 0.6,
+    "faithfulness": 0.221
+  },
+  {
+    "system": "Base Model + Dense RAG",
+    "question": "How does Python's GIL affect multithreading performance?",
+    "failure_type": "hallucination",
+    "answer_snippet": "The GIL is a lock. It affects threads in Python programs....",
+    "keyword_coverage": 0.4,
+    "faithfulness": 0.242
+  },
+  {
+    "system": "Base Model + Dense RAG",
+    "question": "What is a decorator in Python and how do you write one?",
+    "failure_type": "format_error",
+    "answer_snippet": "A decorator is a design pattern in Python that uses the @ symbol....",
+    "keyword_coverage": 0.4,
+    "faithfulness": 0.481
+  },
+  {
+    "system": "Base Model + Dense RAG",
+    "question": "How do you optimize a slow SQL query?",
+    "failure_type": "hallucination",
+    "answer_snippet": "You can make SQL faster by using indexes. Also look at your query structure....",
+    "keyword_coverage": 0.2,
+    "faithfulness": 0.1
+  },
+  {
+    "system": "Base Model + Dense RAG",
+    "question": "What is the time complexity of quicksort?",
+    "failure_type": "format_error",
+    "answer_snippet": "Quicksort is O(n log n) on average. It's a divide and conquer algorithm....",
+    "keyword_coverage": 0.4,
+    "faithfulness": 0.446
+  }
+]

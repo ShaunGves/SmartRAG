@@ -1,0 +1,25 @@
+system,question,difficulty,category,latency_ms,num_chunks,keyword_coverage,faithfulness,failure
+Base Model + Dense RAG,How do I handle exceptions in asyncio coroutines?,medium,debugging,1101.5,2,0.6,0.37,none
+Base Model + Dense RAG,What is the difference between a list and a generator in Pyt,easy,concepts,1343.5,2,0.6,0.221,hallucination
+Base Model + Dense RAG,How does Python's GIL affect multithreading performance?,hard,concurrency,1077.9,2,0.4,0.242,hallucination
+Base Model + Dense RAG,What is a decorator in Python and how do you write one?,medium,syntax,1387.8,2,0.4,0.481,format_error
+Base Model + Dense RAG,How do you optimize a slow SQL query?,hard,databases,1321.8,2,0.2,0.1,hallucination
+Base Model + Dense RAG,What is the time complexity of quicksort?,easy,algorithms,1189.9,2,0.4,0.446,format_error
+Fine-Tuned + Dense RAG,How do I handle exceptions in asyncio coroutines?,medium,debugging,806.1,3,1.0,0.741,none
+Fine-Tuned + Dense RAG,What is the difference between a list and a generator in Pyt,easy,concepts,865.0,3,0.8,0.956,none
+Fine-Tuned + Dense RAG,How does Python's GIL affect multithreading performance?,hard,concurrency,913.6,3,1.0,0.806,none
+Fine-Tuned + Dense RAG,What is a decorator in Python and how do you write one?,medium,syntax,769.2,3,1.0,0.577,none
+Fine-Tuned + Dense RAG,How do you optimize a slow SQL query?,hard,databases,846.4,3,0.8,1.0,none
+Fine-Tuned + Dense RAG,What is the time complexity of quicksort?,easy,algorithms,985.2,3,1.0,0.893,none
+Fine-Tuned + Hybrid Search,How do I handle exceptions in asyncio coroutines?,medium,debugging,918.9,4,1.0,0.741,none
+Fine-Tuned + Hybrid Search,What is the difference between a list and a generator in Pyt,easy,concepts,1033.1,4,0.8,0.956,none
+Fine-Tuned + Hybrid Search,How does Python's GIL affect multithreading performance?,hard,concurrency,902.1,4,1.0,0.806,none
+Fine-Tuned + Hybrid Search,What is a decorator in Python and how do you write one?,medium,syntax,966.8,4,1.0,0.577,none
+Fine-Tuned + Hybrid Search,How do you optimize a slow SQL query?,hard,databases,933.1,4,0.8,1.0,none
+Fine-Tuned + Hybrid Search,What is the time complexity of quicksort?,easy,algorithms,980.8,4,1.0,0.893,none
+Fine-Tuned + Hybrid + Reranking,How do I handle exceptions in asyncio coroutines?,medium,debugging,1173.3,4,1.0,0.741,none
+Fine-Tuned + Hybrid + Reranking,What is the difference between a list and a generator in Pyt,easy,concepts,951.7,4,0.8,0.956,none
+Fine-Tuned + Hybrid + Reranking,How does Python's GIL affect multithreading performance?,hard,concurrency,919.9,4,1.0,0.806,none
+Fine-Tuned + Hybrid + Reranking,What is a decorator in Python and how do you write one?,medium,syntax,978.2,4,1.0,0.577,none
+Fine-Tuned + Hybrid + Reranking,How do you optimize a slow SQL query?,hard,databases,1178.6,4,0.8,1.0,none
+Fine-Tuned + Hybrid + Reranking,What is the time complexity of quicksort?,easy,algorithms,970.8,4,1.0,0.893,none

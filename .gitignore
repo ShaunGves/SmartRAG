@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+venv/
+.venv/
+env/
+
+# ML Artifacts (large files — use Git LFS or HF Hub)
+artifacts/finetuned_model/
+artifacts/chroma_db/
+artifacts/raw_data/
+artifacts/*.pkl
+*.bin
+*.safetensors
+
+# HuggingFace cache
+.cache/
+
+# MLflow
+mlruns/
+mlflow.db
+
+# Testing
+.pytest_cache/
+htmlcov/
+.coverage
+coverage.xml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+*.pem
+*.key
