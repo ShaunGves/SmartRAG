@@ -4,7 +4,7 @@
 
 ---
 
-## 🎯 Use Case: AI Assistant for Programmers
+## Use Case: AI Assistant for Programmers
 
 Answers developer questions grounded in real documentation — no hallucinated APIs.
 
