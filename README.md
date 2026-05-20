@@ -1,4 +1,4 @@
-# 🧠 SmartRAG — Production AI Assistant for Programmers
+#  SmartRAG — Production AI Assistant for Programmers
 
 > QLoRA Fine-Tuning · Hybrid Search (BM25+Dense) · Cross-Encoder Reranking · ReAct Agent · Embedding Cache · Rate Limiting · Ablation Study · FastAPI · React
 
