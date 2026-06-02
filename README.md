@@ -9,7 +9,7 @@
 Answers developer questions grounded in real documentation — no hallucinated APIs.
 
 - *"How do I handle exceptions in asyncio?"*
-- *"What is the GIL and how does it affect threading?"
+- *"What is the GIL and how does it affect threading?"*
 - *"How do I optimize a slow SQL query with N+1 problems?"*
 
 ---
